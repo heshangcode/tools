@@ -24,7 +24,9 @@ def process_text_files(folder_path):
                     file.write(processed_content)
 
 # 指定目标路径
+# target_folder = os.path.expanduser("/Users/heshang/Movies/纪元的早起优酷视频")
 target_folder = os.path.expanduser("~/Documents/ky妙记")
+# target_folder = os.path.expanduser("/Users/heshang/Documents/每日正念-txt")
 
 # 调用函数进行处理
 process_text_files(target_folder)
